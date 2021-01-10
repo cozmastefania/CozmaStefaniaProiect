@@ -1,0 +1,17 @@
+﻿CREATE TABLE [dbo].[Cabinet]
+(
+	[IdCab] INT NOT NULL PRIMARY KEY IDENTITY,
+	[IdAnimal] INT NULL,
+	[IdClient] INT NULL,
+
+	CONSTRAINT fk_dbcab_client_id
+ FOREIGN KEY (IdClient)
+ REFERENCES Client (IdClient)
+ ON DELETE CASCADE
+ ON UPDATE CASCADE,
+ CONSTRAINT fk_dbcab_animal_id
+ FOREIGN KEY (IdAnimal)
+ REFERENCES Animal (IdAnimal)
+ ON DELETE CASCADE
+ ON UPDATE CASCADE
+)

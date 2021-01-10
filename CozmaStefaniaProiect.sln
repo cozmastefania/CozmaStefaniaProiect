@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozmaStefaniaProiect", "CozmaStefaniaProiect.csproj", "{5886AAB6-F346-443C-9264-258FEEB100EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabVetModel", "..\CabVetModel\CabVetModel.csproj", "{1F1956A4-AE78-4478-BDE9-0C85D16654B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5886AAB6-F346-443C-9264-258FEEB100EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5886AAB6-F346-443C-9264-258FEEB100EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5886AAB6-F346-443C-9264-258FEEB100EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5886AAB6-F346-443C-9264-258FEEB100EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1956A4-AE78-4478-BDE9-0C85D16654B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1956A4-AE78-4478-BDE9-0C85D16654B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1956A4-AE78-4478-BDE9-0C85D16654B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1956A4-AE78-4478-BDE9-0C85D16654B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA56437B-7905-4729-858D-DB5969B8E548}
+	EndGlobalSection
+EndGlobal
